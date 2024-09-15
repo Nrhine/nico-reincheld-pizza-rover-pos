@@ -427,13 +427,13 @@ Small business owners:
 
 ## Roadmap
 
-Week 1: Back-End Setup, Database Schema, and User Authentication
-Week 2: Front-End Setup, POS Interface, and Order Management
+- Week 1: Back-End Setup, Database Schema, and User Authentication
+- Week 2: Front-End Setup, POS Interface, and Order Management
 
 beyond the bootcamp
 
-Week 3: Payment Integration, Inventory Management, and Admin Dashboard
-Week 4: Testing, Bug Fixes, and Final Adjustments for Capstone Submission
+- Week 3: Payment Integration, Inventory Management, and Admin Dashboard
+- Week 4: Testing, Bug Fixes, and Final Adjustments for Capstone Submission
 
 ---
 
