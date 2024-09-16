@@ -38,13 +38,6 @@ Small business owners:
    - Order Status Updates: Cashiers can mark orders as "In Progress" or "Completed" for tracking.
    - Order History: Admins can access a list of past orders with details for reference.
 
-4. Inventory Management:
-
-   - Real-Time Stock Tracking: Inventory levels update automatically when items are sold, showing current stock counts.
-   - Low Stock Alerts: Admins receive notifications when stock for specific items falls below a predefined threshold.
-   - Add/Remove Stock: Admins can manually adjust stock levels to account for restocks or changes.
-   - View Inventory History: Admins can view past changes to inventory levels, including restocks and deductions.
-
 ## Implementation
 
 ### Tech Stack
@@ -439,7 +432,21 @@ beyond the bootcamp
 
 ## Future Implementations
 
-1. Customer Loyalty Program
+1. Order Management:
+
+   - Place Orders: Cashiers can select menu items, add customizations (e.g., extra toppings), and submit orders.
+   - View Current Orders: Cashiers can view a list of current orders being processed or waiting to be fulfilled.
+   - Order Status Updates: Cashiers can mark orders as "In Progress" or "Completed" for tracking.
+   - Order History: Admins can access a list of past orders with details for reference.
+
+2. Inventory Management:
+
+   - Real-Time Stock Tracking: Inventory levels update automatically when items are sold, showing current stock counts.
+   - Low Stock Alerts: Admins receive notifications when stock for specific items falls below a predefined threshold.
+   - Add/Remove Stock: Admins can manually adjust stock levels to account for restocks or changes.
+   - View Inventory History: Admins can view past changes to inventory levels, including restocks and deductions.
+
+3. Customer Loyalty Program
 
 - Feature: Add a simple customer loyalty system where customers earn points on purchases, which can later be redeemed for discounts.
 - Benefit: Encourages repeat business and increases customer engagement.
@@ -447,7 +454,7 @@ beyond the bootcamp
   - Track customer orders and award points based on total purchase amounts.
   - Provide a “redeem points” option during the payment process.
 
-2. Advanced Sales Analytics
+4. Advanced Sales Analytics
 
 - Feature: Provide more in-depth sales analytics, such as sales trends over time, customer demographics, or item popularity by day of the week.
 - Benefit: Helps the food truck owner make data-driven decisions, optimizing menu items and business operations.
