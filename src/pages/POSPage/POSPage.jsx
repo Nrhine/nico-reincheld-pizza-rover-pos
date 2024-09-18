@@ -5,11 +5,21 @@ import ItemList from '../../components/POS/ItemsList/ItemList';
 
 function POSPage() {
   const [activeTab, setActiveTab] = useState('PIZZA');
+  const [order, setOrder] = useState([]);
+
+  const addToOrder = (item) => {
+    setOrder([...order, item]);
+  };
 
   return (
     <main>
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
-      <ItemList />
+      <ItemList
+        order={order}
+        setOrder={setOrder}
+        addToOrder={addToOrder}
+        activeTab={activeTab}
+      />
     </main>
   );
 }

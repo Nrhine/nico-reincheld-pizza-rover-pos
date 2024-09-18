@@ -1,9 +1,10 @@
 import './Item.scss';
 
-function Item() {
+function Item({ name, price }) {
   return (
     <div className="item">
-      <p>pizza</p>
+      <h2 className="item__name">{name}</h2>
+      <div class="item__price">{price}</div>
     </div>
   );
 }

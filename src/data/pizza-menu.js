@@ -1,4 +1,4 @@
-[
+const pizzaMenu = [
   {
     id: 1,
     name: 'Margherita',
@@ -82,3 +82,5 @@
     availability: true,
   },
 ];
+
+export default pizzaMenu;

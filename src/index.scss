@@ -1,0 +1,11 @@
+@use './styles/partials/variables' as *;
+
+main {
+  width: 75.625rem;
+  height: 52.125rem;
+  border: 3px solid black;
+  border-radius: 2rem;
+  background-color: $timberwolf;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
