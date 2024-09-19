@@ -29,7 +29,9 @@ function Header({ activeTab, setActiveTab }) {
         >
           DRINKS
         </button>
-
+        <Link to="/payment" className="header__nav-button ">
+          PAY
+        </Link>
         <Link to="/directory" className="header__nav-button ">
           BACK
         </Link>

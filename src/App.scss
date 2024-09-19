@@ -1,3 +1,5 @@
+@use './styles/partials/variables' as *;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +12,17 @@
     display: none;
   }
 }
+
+main {
+  width: 75.625rem;
+  height: 52.125rem;
+  border: 3px solid black;
+  border-radius: 2rem;
+  background-color: $timberwolf;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 body,
 html {
   overflow: hidden;

@@ -9,15 +9,33 @@ function ItemList({ order, setOrder, addToOrder, activeTab }) {
     <section className="item-list">
       {activeTab === 'PIZZA' ? (
         pizzaMenu.map((item) => (
-          <Item key={item.id} name={item.name} price={item.price} />
+          <Item
+            addToOrder={addToOrder}
+            key={item.id}
+            name={item.name}
+            price={item.price}
+            orderLength={order.length}
+          />
         ))
       ) : activeTab === 'SIDES' ? (
         sidesMenu.map((item) => (
-          <Item key={item.id} name={item.name} price={item.price} />
+          <Item
+            addToOrder={addToOrder}
+            key={item.id}
+            name={item.name}
+            price={item.price}
+            orderLength={order.length}
+          />
         ))
       ) : activeTab === 'DRINKS' ? (
         drinksMenu.map((item) => (
-          <Item key={item.id} name={item.name} price={item.price} />
+          <Item
+            addToOrder={addToOrder}
+            key={item.id}
+            name={item.name}
+            price={item.price}
+            orderLength={order.length}
+          />
         ))
       ) : (
         <h1>Loading</h1>
