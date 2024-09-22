@@ -6,6 +6,7 @@ const sidesMenu = [
     price: 3.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const sidesMenu = [
     price: 5.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const sidesMenu = [
     price: 7.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ const sidesMenu = [
     price: 4.49,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 5,
@@ -39,6 +43,7 @@ const sidesMenu = [
     price: 4.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 6,
@@ -47,6 +52,7 @@ const sidesMenu = [
     price: 5.49,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 7,
@@ -55,6 +61,7 @@ const sidesMenu = [
     price: 6.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 8,
@@ -63,6 +70,7 @@ const sidesMenu = [
     price: 2.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 9,
@@ -71,6 +79,7 @@ const sidesMenu = [
     price: 6.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
   {
     id: 10,
@@ -79,6 +88,7 @@ const sidesMenu = [
     price: 3.99,
     category: 'Sides',
     availability: true,
+    taxed: false,
   },
 ];
 

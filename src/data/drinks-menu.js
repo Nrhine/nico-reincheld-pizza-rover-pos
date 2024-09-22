@@ -1,19 +1,21 @@
 const drinksMenu = [
   {
     id: 1,
-    name: 'Voss Sparkling Water',
+    name: 'Sparkling Water',
     description: 'Chilled sparkling water with a refreshing fizz',
     price: 2.49,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 2,
-    name: 'Voss Water',
+    name: 'Still Water',
     description: 'Pure and refreshing bottled water',
     price: 1.99,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const drinksMenu = [
     price: 2.99,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const drinksMenu = [
     price: 2.99,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const drinksMenu = [
     price: 1.99,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const drinksMenu = [
     price: 1.99,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const drinksMenu = [
     price: 2.49,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const drinksMenu = [
     price: 2.49,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const drinksMenu = [
     price: 3.49,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const drinksMenu = [
     price: 2.99,
     category: 'Drinks',
     availability: true,
+    taxed: true,
   },
 ];
 

@@ -6,6 +6,7 @@ const pizzaMenu = [
     price: 8.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const pizzaMenu = [
     price: 9.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ const pizzaMenu = [
     price: 10.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ const pizzaMenu = [
     price: 9.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 5,
@@ -39,6 +43,7 @@ const pizzaMenu = [
     price: 9.49,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 6,
@@ -47,6 +52,7 @@ const pizzaMenu = [
     price: 11.49,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 7,
@@ -55,6 +61,7 @@ const pizzaMenu = [
     price: 10.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 8,
@@ -63,6 +70,7 @@ const pizzaMenu = [
     price: 9.49,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 9,
@@ -71,6 +79,7 @@ const pizzaMenu = [
     price: 9.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
   {
     id: 10,
@@ -80,6 +89,7 @@ const pizzaMenu = [
     price: 11.99,
     category: 'Pizza',
     availability: true,
+    taxed: false,
   },
 ];
 

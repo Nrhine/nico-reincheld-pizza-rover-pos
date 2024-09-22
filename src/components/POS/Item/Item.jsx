@@ -1,14 +1,22 @@
 import './Item.scss';
+import { v4 as uuid } from 'uuid';
 
-function Item({ name, price, addToOrder, orderLength }) {
+function Item({ name, price, taxed, addToOrder }) {
   return (
     <div
       className="item"
       onClick={() => {
         addToOrder({
-          id: orderLength + 1, //creates a unique order id number
+          id: uuid(), //creates a unique order id number
           name: name,
           price: price,
+          taxed: taxed,
+          modifications: {
+            no: [],
+            easy: [],
+            extra: [],
+            sub: [],
+          },
         });
       }}
     >

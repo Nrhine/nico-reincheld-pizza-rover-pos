@@ -14,6 +14,7 @@ function ItemList({ order, setOrder, addToOrder, activeTab }) {
             key={item.id}
             name={item.name}
             price={item.price}
+            taxed={item.taxed}
             orderLength={order.length}
           />
         ))
@@ -24,6 +25,7 @@ function ItemList({ order, setOrder, addToOrder, activeTab }) {
             key={item.id}
             name={item.name}
             price={item.price}
+            taxed={item.taxed}
             orderLength={order.length}
           />
         ))
@@ -34,6 +36,7 @@ function ItemList({ order, setOrder, addToOrder, activeTab }) {
             key={item.id}
             name={item.name}
             price={item.price}
+            taxed={item.taxed}
             orderLength={order.length}
           />
         ))
