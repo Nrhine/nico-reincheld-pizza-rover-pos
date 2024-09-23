@@ -10,9 +10,6 @@ function LoginPage() {
 
   const loginUrl = `${baseUrl}/login`;
 
-  console.log(baseUrl);
-  console.log(loginUrl);
-
   const navigate = useNavigate();
   const [error, setError] = useState('');
 
@@ -42,7 +39,7 @@ function LoginPage() {
     <main>
       <section className="login">
         <form onSubmit={handleLogin} className="login__form">
-          <h1 className="login__form-header">Pizza Rover</h1>
+          <h1 className="login__form-header">The Pizza Rover</h1>
           <label htmlFor="username" className="login__form-label">
             Username
             <input
