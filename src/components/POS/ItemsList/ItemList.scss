@@ -1,0 +1,17 @@
+.item-list {
+  width: 95%;
+  height: 43.75rem;
+  margin: 1rem 1rem 0 0;
+  padding: 1.5rem;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: none;
+  border-radius: 0 2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  gap: 2rem;
+}
